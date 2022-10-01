@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(240, 218, 239);
+}
+
+.centralize{
+  margin: auto;
+}
+
+.banner{
+  display: flex;
+  height: 100%;
+  background-color: rgb(0, 0, 0); 
+}
+
+.photo{
+  width: 350px;
+  font-size: 16px;
+}
+
+.photo{
+  overflow: hidden;
+  max-width: 100%;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.photo:hover{
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.name{
+  font-size: 200%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;  
+  text-shadow: 0 0 1px #fff, 0 0 3px #df03c1;
+}
+
+.name:hover{
+  text-decoration:none;
+	color: #a38ca0;
+}
+.profession{
+  font-size: 95%;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 0 1px #fff, 0 0 1px #e67fd8;
+}
+
+.profession:hover{
+  text-decoration:none;
+	color:#a38ca0;
+}
+
+.sections{
+  display:flex;
+  background-color: black;
+  justify-content:center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 25px;
+
+}
+
+.btnPortfolio{
+  color:white;
+  text-align: center;
+  background-color: rgb(85, 6, 61);
+  border-radius: 40px;
+  padding: 20px 100px;  
+  font-size: 20px;
+  cursor: pointer; 
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(248, 243, 247, 0)), linear-gradient(101deg, #250823, #df03c1);
+  box-shadow: 2px 1000px 1px rgb(85, 6, 61) inset;
+  overflow: hidden;
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+  
+}
+
+
+.btnPortfolio2 {
+  color:white;
+  text-align: center;
+  background-color: rgb(85, 6, 61);
+  border-radius: 40px;
+  padding: 20px 110px;  
+  font-size: 20px;
+  cursor: pointer; 
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(248, 243, 247, 0)), linear-gradient(101deg, #250823, #df03c1);
+  box-shadow: 2px 1000px 1px rgb(85, 6, 61) inset;
+  overflow: hidden;
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btnPortfolio5 {
+  color:white;
+  text-align: center;
+  background-color: rgb(85, 6, 61);
+  border-radius: 40px;
+  padding: 20px 110px;  
+  font-size: 20px;
+  cursor: pointer; 
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(248, 243, 247, 0)), linear-gradient(101deg, #250823, #df03c1);
+  box-shadow: 2px 1000px 1px rgb(85, 6, 61) inset;
+  overflow: hidden;
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+  
+.btnPortfolio:hover {
+  box-shadow: none;
+  -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.btnPortfolio2:hover {
+  box-shadow: none;
+  -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.btnPortfolio5:hover {
+  box-shadow: none;
+  -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+
+
+
+
+
+
